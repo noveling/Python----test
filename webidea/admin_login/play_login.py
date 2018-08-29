@@ -8,7 +8,7 @@ def play_login():
     driver = webdriver.Firefox()
     test = Login_page(driver,"http://bbs.codeaha.com/admin.php")
     test.goto_firstpage()
-    test.input_info("啊哈磊", "ahalei#21")
+    test.input_info("XXX", "XXXXXXX")
     test.clicksubmit()
     try:
         print("用户名: "+WebDriverWait(driver,10,0.2).until(EC.presence_of_element_located(test.confirm_name)).text)
