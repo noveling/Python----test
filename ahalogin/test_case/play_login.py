@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 
-def test_login(name="3599066646",pwd="123321?xc"):
+def test_login(name="xxxxxxx",pwd="xxxxxxx"):
     # opt=webdriver.FirefoxOptions()
     # opt.set_headless()
     driver=webdriver.Firefox()
